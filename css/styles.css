@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  min-width: 800px;
+  min-width: 1250px;
 }
 
 *, *:before, *:after {
@@ -12,12 +12,20 @@ html {
   color: #F9FAF8;
   font-family: 'Roboto', sans-serif;
   display: flex;
+  flex-direction: column;
   padding: 0 200px;
 }
 
 .header-logo {
+  display: flex;
+  align-items: center;
   font-size: 24px;
   font-weight: 700;
+}
+
+.header-logo img {
+  margin: 0 5px;
+  margin-left: -25px;
 }
 
 .nav-menu {
@@ -36,8 +44,35 @@ html {
   gap: 25px;
 }
 
-.nav-links, a {
+.nav-links a, .hero-body {
   color: #E5E7EB;
   font-size: 18px;
   text-decoration: none;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-box {
+  display: flex;
+  padding: 35px 0 70px 0;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-butt {
+  background-color: #3882F6;
+  border: none;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 6px;
+  border-radius: 8px;
+  margin-top: 10px;
 }
