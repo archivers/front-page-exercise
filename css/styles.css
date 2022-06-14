@@ -58,6 +58,7 @@ html {
 .hero-box {
   display: flex;
   padding: 35px 0 70px 0;
+  gap: 50px;
 }
 
 .hero-text {
