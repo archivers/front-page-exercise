@@ -7,10 +7,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
 .header {
   background-color: #1F2937;
   color: #F9FAF8;
-  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   padding: 0 200px;
@@ -76,4 +82,42 @@ html {
   padding: 6px;
   border-radius: 8px;
   margin-top: 10px;
+}
+
+.infogalheader {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.infogalimg {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  border: 4px solid #3b82f6;
+}
+
+.infogalcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.infogalnut{
+  max-width: 300px;
+}
+
+.infogaltext {
+  text-align: center;
+  margin: 10px 0;
+  color: #4b5563;
+}
+
+.qoutecontainer {
+  background-color: #E5E7EB;
+  height: 200px;
 }
